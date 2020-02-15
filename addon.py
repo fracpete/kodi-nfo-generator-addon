@@ -5,7 +5,7 @@ import subprocess
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
 
-subprocess.run([
+subprocess.call([
     "kodi-nfo-gen", 
     "--dir",
     "/media/xbmc/media/movies",
