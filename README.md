@@ -24,3 +24,9 @@ Addon for kodi to integrate the kodi-nfo-generator tool.
   to ensure that this user has write access in the movie directories.
   Otherwise, no `.nfo` files can be generated. 
 
+
+## Links
+
+* Hello World - https://kodi.wiki/view/HOW-TO:HelloWorld_addon
+* API - https://kodi.wiki/view/List_of_built-in_functions#Library_built-in.27s
+
