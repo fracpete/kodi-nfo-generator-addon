@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="kodi-nfo-generator-addon" name="Kodi .nfo Generator" version="0.0.1" provider-name="fracpete">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Generates .nfo files using kodi-nfo-generator</summary>
+		<description lang="en">Uses the kodi-nfo-generator tool to generate .nfo files from the MOVIE.imdb files stored alongside the movies. At the moment, the top-level path to the movies is hard coded in the Python script.</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum>https://github.com/fracpete/kodi-nfo-generator-addon/issues</forum>
+		<source>https://github.com/fracpete/kodi-nfo-generator-addon</source>
+		<email>fracpete@gmail.com</email>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<news>First release</news>
+	</extension>
+</addon>
