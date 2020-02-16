@@ -1,6 +1,14 @@
 # kodi-nfo-generator-addon
 Addon for kodi to integrate the kodi-nfo-generator tool.
 
+## Requirements
+
+[kodi-nfo-generator](https://github.com/fracpete/kodi-nfo-generator) must be installed on the system:
+
+```
+sudo pip install kodi-nfo-generator
+```
+
 ## Installation
 
 * Download the code as a zip file (*Clone or download*)
