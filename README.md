@@ -22,6 +22,10 @@ sudo pip install kodi-nfo-generator
   ```
   /var/lib/kodi/.kodi/addons/kodi-nfo-generator-addon/addon.py
   ```
+  Or, if you are running kodi as the `pi` user:
+  ```
+  /home/pi/.kodi/addons/kodi-nfo-generator-addon/addon.py
+  ```
 
 
 ## Notes
