@@ -37,6 +37,22 @@ sudo pip install kodi-nfo-generator
   Otherwise, no `.nfo` files can be generated. 
 
 
+## Custom TV show episode naming conventions
+
+If your naming conventions for TV show episodes does not follow the `S??E??*.*` pattern, then you can use the `--episode_pattern`, `` and `` options to adjust the matching and extraction. 
+
+If you use `?x??*.*` (e.g., 1x07.mkv) as your convention, you can append the following parameters to correctly match the files and extract the season/episode information to generate `.nfo` files:
+
+```
+    "--episode_pattern",
+    "?x??*",
+    "--season_group",
+    "([0-9]?[0-9])x[0-9][0-9].*",
+    "--episode_group",
+    "[0-9]?[0-9]x([0-9][0-9]).*",
+```
+
+
 ## Links
 
 * Hello World - https://kodi.wiki/view/HOW-TO:HelloWorld_addon
