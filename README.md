@@ -52,6 +52,21 @@ If you use `?x??*.*` (e.g., 1x07.mkv) as your convention, you can append the fol
     "[0-9]?[0-9]x([0-9][0-9]).*",
 ```
 
+## Troubleshooting
+
+* Kodi flags the plugin as not compatible
+
+   For older versions of kodi, use the following in `addon.xml`:
+
+   ```
+   <import addon="xbmc.python" version="2.14.0"/>
+   ```
+
+   For new versions, the following:
+
+   ```
+   <import addon="xbmc.python" version="3.0.0"/>
+   ```
 
 ## Links
 
